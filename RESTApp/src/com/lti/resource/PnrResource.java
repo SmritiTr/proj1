@@ -37,8 +37,8 @@ public class PnrResource {
 		pnr.setTravelDate(LocalDate.of(2020, 12, 25));
 		
 		List<Passenger> passengers = new ArrayList<Passenger>();
-		passengers.add(new Passenger("Rosie",Gender.FEMALE,Status.RAC ));
-		passengers.add(new Passenger("Stuti",Gender.FEMALE,Status.RAC ));
+		passengers.add(new Passenger("Rosie",Gender.FEMALE,Status.CONFIRMED ));
+		passengers.add(new Passenger("Stuti",Gender.FEMALE,Status.CONFIRMED ));
 		passengers.add(new Passenger("Dinesh",Gender.MALE,Status.CONFIRMED ));
 		pnr.setPassengers(passengers);
 		
